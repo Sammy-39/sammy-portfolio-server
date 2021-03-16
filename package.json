@@ -1,0 +1,21 @@
+{
+  "name": "sammy-portfolio-backend",
+  "version": "1.0.0",
+  "description": "API endpoint for sammy-portfolio",
+  "main": "server.js",
+  "scripts": {
+    "start" : "node server.js",
+    "start-live" : "nodemon server.js"
+  },
+  "author": "Sammy",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
